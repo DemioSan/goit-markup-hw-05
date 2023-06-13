@@ -802,13 +802,18 @@ address {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.input-user-privacy:focus-within + .modal-span-svg {
+/*.input-user-privacy:focus-within + .modal-span-svg {
   fill: var(--primary-brand-color);
-}
+}*/
 .input-user-privacy + .user-privacy-label > .modal-span {
   background-color: var(--prressed-state);
   border: none;
   fill: var(--light-color);
+}
+.input-user-privacy:focus + .user-privacy-label > .modal-span,
+.input-user-privacy:hover + .user-privacy-label > .modal-span {
+  fill: var(--primary-brand-color);
+  background-color: transparent;
 }
 .send-button {
   display: block;
