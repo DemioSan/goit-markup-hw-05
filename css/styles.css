@@ -790,6 +790,11 @@ address {
 .user-privacy:focus {
   fill: var(--primary-brand-color);
 }
+.input-user-privacy + .user-privacy > .modal-span {
+  background-color: var(--prressed-state);
+  border: none;
+  fill: var(--light-color);
+}
 .modal-span {
   width: 16px;
   height: 16px;
@@ -835,11 +840,6 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-user-privacy + .user-privacy > .modal-span {
-  background-color: var(--prressed-state);
-  border: none;
-  fill: var(--light-color);
-}
 .privacy-policy {
   color: var(--primary-brand-color);
 }
