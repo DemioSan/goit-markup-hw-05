@@ -779,17 +779,17 @@ address {
 .modal-checkbox-div {
   margin-bottom: 24px;
 }
-.user-privacy {
+.user-privacy-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--subtle-text);
 }
 
-.user-privacy-label:hover,
+/*.user-privacy-label:hover,
 .user-privacy-label:focus {
   fill: var(--primary-brand-color);
-}
+}*/
 
 .modal-span {
   width: 16px;
@@ -812,7 +812,7 @@ address {
   fill: var(--primary-brand-color);
 }*/
 
-.input-user-privacy + .user-privacy-label > modal-span {
+.input-user-privacy + .user-privacy-label > .modal-span {
   background-color: var(--prressed-state);
   border: none;
   fill: var(--light-color);
