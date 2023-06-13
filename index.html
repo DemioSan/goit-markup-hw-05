@@ -556,7 +556,7 @@
           </div>
 
           <div class="modal-comment-div">
-            <label class="modal-coment" for="user-comment">
+            <label class="modal-label" for="user-comment">
               Comment
               <textarea
                 class="user-comment"
@@ -573,10 +573,8 @@
                 class="visually-hidden"
                 id="user-privacy"
                 type="checkbox"
-                name="privacy-policy"
-                value="true"
                 name="user-privacy"
-                checked
+                value="true"
               />
             </label>
             <label class="user-privacy" for="user-privacy"
@@ -586,7 +584,13 @@
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg> </span
             ></label>
-            <input type="checkbox" id="" name="" checked />
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              checked
+            />
           </div>
           <button type="button" class="send-button">Send</button>
         </form>

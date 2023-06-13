@@ -755,7 +755,7 @@ address {
 .modal-comment-div {
   margin-bottom: 16px;
 }
-.modal-comment {
+/*.modal-comment {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -763,7 +763,7 @@ address {
 
   display: block;
   margin-bottom: 4px;
-}
+}*/
 .user-comment {
   width: 100%;
   height: 120px;
