@@ -810,10 +810,11 @@ address {
   border: none;
   fill: var(--light-color);
 }
-.input-user-privacy:focus + .user-privacy-label > .modal-span,
-.input-user-privacy:hover + .user-privacy-label > .modal-span {
+.user-privacy-label:focus > .modal-span,
+.user-privacy-label:hover > .modal-span {
   fill: var(--primary-brand-color);
   background-color: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .send-button {
   display: block;
