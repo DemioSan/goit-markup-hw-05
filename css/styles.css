@@ -755,15 +755,7 @@ address {
 .modal-comment-div {
   margin-bottom: 16px;
 }
-/*.modal-comment {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--subtle-text);
 
-  display: block;
-  margin-bottom: 4px;
-}*/
 .user-comment {
   width: 100%;
   height: 120px;
@@ -806,8 +798,8 @@ address {
   justify-content: center;
   fill: transparent;
 }
-.modal-span:hover,
-.modal-span:focus {
+.modal-span-svg:hover,
+.modal-span-svg:focus {
   fill: var(--primary-brand-color);
 }
 .send-button {
