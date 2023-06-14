@@ -550,6 +550,9 @@ address {
 .svg-footer {
   fill: var(--light-color);
 }
+.subscribe {
+  margin-left: 80px;
+}
 
 .subscribe-label {
   display: inline-block;
@@ -569,15 +572,11 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-background-color);
-
-  margin-left: 80px;
 }
 
 .subcribe-form {
   display: flex;
   gap: 24px;
-
-  margin-left: 80px;
 }
 
 .subscribe-input {
@@ -775,6 +774,10 @@ address {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--dark-color);
 }
 .modal-textarea:hover,
 .modal-textarea:focus {
@@ -807,9 +810,6 @@ address {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-/*.input-user-privacy:focus-within + .modal-span-svg {
-  fill: var(--primary-brand-color);
-}*/
 .input-user-privacy:checked + .user-privacy-label > .modal-span {
   background-color: var(--prressed-state);
   border: none;
@@ -819,7 +819,10 @@ address {
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
-
+.input-user-privacy:focus + .user-privacy-label > .modal-span,
+.input-user-privacy:hover + .user-privacy-label > .modal-span {
+  border-color: var(--primary-brand-color);
+}
 .send-button {
   display: block;
   min-width: 169px;
