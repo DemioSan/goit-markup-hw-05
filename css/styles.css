@@ -779,10 +779,12 @@ address {
 .modal-textarea:hover,
 .modal-textarea:focus {
   border-color: var(--primary-brand-color);
-
-  color: var(--dark-color);
 }
-
+.modal-textarea:not(:placeholder-shown) {
+  color: var(--dark-color);
+  font-size: 14px;
+  line-height: 1.5;
+}
 .modal-checkbox-div {
   margin-bottom: 24px;
 }
